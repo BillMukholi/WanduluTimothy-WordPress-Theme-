@@ -29,7 +29,7 @@
 		<div class="header-cont bgColor">
 			<div class="header container">
 				<div class="header-section-cont">
-					<a href="#" class="header-section-site-title">
+					<a href="<?php echo site_url(); ?>" class="header-section-site-title">
 						<?php
 							//Get site title and store it in an array!
 							$_siteTitle = get_bloginfo('name');

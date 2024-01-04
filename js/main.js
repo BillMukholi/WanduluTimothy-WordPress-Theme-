@@ -5,13 +5,16 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     document.documentElement.setAttribute('data-theme', 'light');
   }
 
-//FULL SCREEN CAROUSEL
+// //FULL SCREEN CAROUSEL
 let fullScreenCarousel = $(".full-screen-carousel-area")
 $(document).ready(function(){
     // FULL SCREEN CAROUSEL INIT
-    let fullScreenCarouselContol = document.getElementsByClassName("carousel-control");
+    let fullScreenCarouselContol = document.getElementsByClassName("carousel-control-cont");
     fullScreenCarousel.owlCarousel({
         items:1,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplaySpeed:500,
         loop:true
     });
 
@@ -210,13 +213,13 @@ mobileNavigationNavigationAnimation.to(".post-navigation-area-bg",{
     duration:0.35
 },"-=0.25")
 
-navigationBtn.addEventListener("click",()=>{
-    mobileNavigationNavigationAnimation.restart()
-})
-navigationControlArea.addEventListener("click",()=>{
-    //alert('x')
-    mobileNavigationNavigationAnimation.reverse()
-})
+// navigationBtn.addEventListener("click",()=>{
+//     mobileNavigationNavigationAnimation.restart()
+// })
+// navigationControlArea.addEventListener("click",()=>{
+//     //alert('x')
+//     mobileNavigationNavigationAnimation.reverse()
+// })
 
 //Navigation Items
 let navigationItems = document.getElementsByClassName("post-anchor")

@@ -698,13 +698,14 @@
     overflow: hidden;
     width: 100%;
     height: 90vh;
+    margin-top: -1cm;
     .full-screen-carousel{
         position: relative;
         width: inherit;
         height: inherit;
         .carousel-fg-cont{
             position: absolute;
-            z-index: 2;
+            z-index: 3;
             top: 0px;
             width: inherit;
             height: inherit;
@@ -749,13 +750,47 @@
             position: relative;
             width: 100%;
             height: 100%;
+            .carousel-control-cont{
+                position: absolute;
+                cursor: pointer;
+                top: 50%;
+                transform: translateY(-50%);
+                display: flex;
+                align-items: center;
+                width: 2cm;
+                height: 2cm;
+                z-index: 5;
+                .carousel-control{
+                    position: relative;
+                    display: flex;
+                    width: inherit;
+                    height: inherit;
+                    border-radius: 100cm;
+                    backdrop-filter: blur(10px);
+                    transform: scale(0.65);
+                    transition: transform 200ms ease-in-out;
+                    .carousel-control-icon{
+                        text-align: center;
+                        margin: 0px;
+                        margin: auto;
+                        color: white;
+                        font-size: 2em;
+                    }
+                }
+            }
+            .carousel-control-cont:nth-child(1){
+                left: 5vw;
+            }
+            .carousel-control-cont:nth-child(2){
+                right: 5vw;
+            }
             .full-screen-carousel-area{
                 .carousel-slide{
                     position: relative;
                     width: 100%;
                     height: 90vh;
                     overflow: hidden;
-                    background: yellow;
+                    //background: yellow;
                     .carousel-slide-img-mobile{
                         position: absolute;
                         object-fit: contain;

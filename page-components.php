@@ -21,10 +21,24 @@ get_header();
 					</div>
 				</div> -->
 				<div class="carousel-bg-cont">
+                    <div class="carousel-control-cont transparentBorderColor">
+						<div class="carousel-control transparentColor">
+							<p class="carousel-control-icon"><</p>
+						</div>
+					</div>
+					<div class="carousel-control-cont transparentBorderColor">
+						<div class="carousel-control transparentColor">
+							<p class="carousel-control-icon">></p>
+						</div>
+					</div>
 					<div class="full-screen-carousel-area owl-carousel bodyColor">
 						<div class="carousel-slide">
-							<img class="carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()."./assets/img/Youngster-mobile.jpg" ?>">
-							<img class="carousel-slide-img-desktop" src="<?php echo get_template_directory_uri()."./assets/img/Youngster-desktop.jpg" ?>">
+							<img class="carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()."/assets/img/Youngster 1080x1920.jpg" ?>">
+							<img class="carousel-slide-img-desktop" src="<?php echo get_template_directory_uri()."/assets/img/Youngster 1920x1080.jpg" ?>">
+						</div>
+						<div class="carousel-slide">
+							<img class="carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()."/assets/img/Artwork.jpg" ?>">
+							<img class="carousel-slide-img-desktop" src="<?php echo get_template_directory_uri()."/assets/img/Artwork.jpg" ?>">
 						</div>
 					</div>
 				</div>
