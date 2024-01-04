@@ -12,9 +12,11 @@ $(document).ready(function(){
     let fullScreenCarouselContol = document.getElementsByClassName("carousel-control-cont");
     fullScreenCarousel.owlCarousel({
         items:1,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
         autoplay:true,
-        autoplayTimeout:3000,
-        autoplaySpeed:500,
+        autoplayTimeout:8000,
+        autoplaySpeed:6000,
         loop:true
     });
 
