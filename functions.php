@@ -141,6 +141,7 @@ function wandulu_scripts() {
 	wp_enqueue_style( 'wandulu-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'wandulu-style', 'rtl', 'replace' );
 
+	wp_enqueue_style( 'animate', get_template_directory_uri()."./assets/library/animate", array(), _S_VERSION );
 	wp_enqueue_style( 'owl carousel', get_template_directory_uri()."./assets/library/OwlCarousel/dist/assets/owl.carousel.min.css", array(), _S_VERSION );
 	wp_enqueue_style( 'owl carousel theme', get_template_directory_uri()."./assets/library/OwlCarousel/dist/assets/owl.theme.default.min.css", array(), _S_VERSION );
 	wp_enqueue_style( 'main', get_template_directory_uri()."./css/main.css", array(), _S_VERSION );
