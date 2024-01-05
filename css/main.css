@@ -666,7 +666,7 @@
 }
 .full-screen-carousel-cont .full-screen-carousel .carousel-fg-cont {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   top: 0px;
   width: inherit;
   height: inherit;
@@ -1313,6 +1313,11 @@
   position: relative;
   width: 50%;
   text-align: right;
+}
+
+.post-component-iframe-cont {
+  position: relative;
+  height: 10cm;
 }
 
 .post-navigation-area-cont {

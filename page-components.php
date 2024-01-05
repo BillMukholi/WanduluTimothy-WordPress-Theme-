@@ -377,7 +377,7 @@ Obcaecati at porro architecto sed voluptatum praesentium. Necessitatibus, iste n
         <div class="post-component-cont">
             <div class="post-component">
                 <div class="post-component-iframe-cont">
-                    <iframe></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d688.7923121015834!2d30.061397818026382!3d-1.9643964711166428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6ead1361af7%3A0x295e31d6f9a8d65d!2sConcepts%20Arts%20Studio!5e0!3m2!1sen!2srw!4v1704450998286!5m2!1sen!2srw" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
