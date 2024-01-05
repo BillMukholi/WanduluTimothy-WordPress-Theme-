@@ -1,3 +1,7 @@
+strong {
+  font-weight: 800 !important;
+}
+
 .textColor {
   color: black;
 }
